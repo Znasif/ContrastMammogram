@@ -1,0 +1,2702 @@
+{
+    "1": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\1\\MLO_prior.dcm",
+                "mask": "Normal_cases\\1\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\1\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\1\\MLO_recent.dcm",
+                "mask": "Normal_cases\\1\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\1\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\1\\CC_prior.dcm",
+                "mask": "Normal_cases\\1\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\1\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\1\\CC_recent.dcm",
+                "mask": "Normal_cases\\1\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\1\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "10": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\10\\MLO_recent.dcm",
+                "mask": "Normal_cases\\10\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\10\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\10\\MLO_prior.dcm",
+                "mask": "Normal_cases\\10\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\10\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\10\\CC_recent.dcm",
+                "mask": "Normal_cases\\10\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\10\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\10\\CC_prior.dcm",
+                "mask": "Normal_cases\\10\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\10\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "11": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\11\\MLO_prior.dcm",
+                "mask": "Normal_cases\\11\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\11\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\11\\MLO_recent.dcm",
+                "mask": "Normal_cases\\11\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\11\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\11\\CC_prior.dcm",
+                "mask": "Normal_cases\\11\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\11\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\11\\CC_recent.dcm",
+                "mask": "Normal_cases\\11\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\11\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "12": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\12\\MLO_recent.dcm",
+                "mask": "Normal_cases\\12\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\12\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\12\\MLO_prior.dcm",
+                "mask": "Normal_cases\\12\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\12\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\12\\CC_recent.dcm",
+                "mask": "Normal_cases\\12\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\12\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\12\\CC_prior.dcm",
+                "mask": "Normal_cases\\12\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\12\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "13": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\13\\MLO_recent.dcm",
+                "mask": "Normal_cases\\13\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\13\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\13\\MLO_prior.dcm",
+                "mask": "Normal_cases\\13\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\13\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\13\\CC_recent.dcm",
+                "mask": "Normal_cases\\13\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\13\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\13\\CC_prior.dcm",
+                "mask": "Normal_cases\\13\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\13\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "14": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\14\\MLO_prior.dcm",
+                "mask": "Normal_cases\\14\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\14\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\14\\MLO_recent.dcm",
+                "mask": "Normal_cases\\14\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\14\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\14\\CC_prior.dcm",
+                "mask": "Normal_cases\\14\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\14\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\14\\CC_recent.dcm",
+                "mask": "Normal_cases\\14\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\14\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "15": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\15\\MLO_recent.dcm",
+                "mask": "Normal_cases\\15\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\15\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\15\\MLO_prior.dcm",
+                "mask": "Normal_cases\\15\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\15\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\15\\CC_recent.dcm",
+                "mask": "Normal_cases\\15\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\15\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\15\\CC_prior.dcm",
+                "mask": "Normal_cases\\15\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\15\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "16": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\16\\MLO_recent.dcm",
+                "mask": "Normal_cases\\16\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\16\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\16\\MLO_prior.dcm",
+                "mask": "Normal_cases\\16\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\16\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\16\\CC_recent.dcm",
+                "mask": "Normal_cases\\16\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\16\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\16\\CC_prior.dcm",
+                "mask": "Normal_cases\\16\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\16\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "17": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\17\\MLO_recent.dcm",
+                "mask": "Normal_cases\\17\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\17\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\17\\MLO_prior.dcm",
+                "mask": "Normal_cases\\17\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\17\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\17\\CC_recent.dcm",
+                "mask": "Normal_cases\\17\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\17\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\17\\CC_prior.dcm",
+                "mask": "Normal_cases\\17\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\17\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "18": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\18\\MLO_recent.dcm",
+                "mask": "Normal_cases\\18\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\18\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\18\\MLO_prior.dcm",
+                "mask": "Normal_cases\\18\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\18\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\18\\CC_recent.dcm",
+                "mask": "Normal_cases\\18\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\18\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\18\\CC_prior.dcm",
+                "mask": "Normal_cases\\18\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\18\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "19": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\19\\MLO_prior.dcm",
+                "mask": "Normal_cases\\19\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\19\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\19\\MLO_recent.dcm",
+                "mask": "Normal_cases\\19\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\19\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\19\\CC_prior.dcm",
+                "mask": "Normal_cases\\19\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\19\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\19\\CC_recent.dcm",
+                "mask": "Normal_cases\\19\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\19\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "2": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\2\\MLO_prior.dcm",
+                "mask": "Normal_cases\\2\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\2\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\2\\MLO_recent.dcm",
+                "mask": "Normal_cases\\2\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\2\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\2\\CC_prior.dcm",
+                "mask": "Normal_cases\\2\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\2\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\2\\CC_recent.dcm",
+                "mask": "Normal_cases\\2\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\2\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "20": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\20\\MLO_recent.dcm",
+                "mask": "Normal_cases\\20\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\20\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\20\\MLO_prior.dcm",
+                "mask": "Normal_cases\\20\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\20\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\20\\CC_recent.dcm",
+                "mask": "Normal_cases\\20\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\20\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\20\\CC_prior.dcm",
+                "mask": "Normal_cases\\20\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\20\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "21": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\21\\MLO_recent.dcm",
+                "mask": "Normal_cases\\21\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\21\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\21\\MLO_prior.dcm",
+                "mask": "Normal_cases\\21\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\21\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\21\\CC_recent.dcm",
+                "mask": "Normal_cases\\21\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\21\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\21\\CC_prior.dcm",
+                "mask": "Normal_cases\\21\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\21\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "22": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\22\\MLO_recent.dcm",
+                "mask": "Normal_cases\\22\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\22\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\22\\MLO_prior.dcm",
+                "mask": "Normal_cases\\22\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\22\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\22\\CC_recent.dcm",
+                "mask": "Normal_cases\\22\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\22\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\22\\CC_prior.dcm",
+                "mask": "Normal_cases\\22\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\22\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "23": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\23\\MLO_prior.dcm",
+                "mask": "Normal_cases\\23\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\23\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\23\\MLO_recent.dcm",
+                "mask": "Normal_cases\\23\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\23\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\23\\CC_prior.dcm",
+                "mask": "Normal_cases\\23\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\23\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\23\\CC_recent.dcm",
+                "mask": "Normal_cases\\23\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\23\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "24": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\24\\MLO_prior.dcm",
+                "mask": "Normal_cases\\24\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\24\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\24\\MLO_recent.dcm",
+                "mask": "Normal_cases\\24\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\24\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\24\\CC_prior.dcm",
+                "mask": "Normal_cases\\24\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\24\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\24\\CC_recent.dcm",
+                "mask": "Normal_cases\\24\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\24\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "25": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\25\\MLO_recent.dcm",
+                "mask": "Normal_cases\\25\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\25\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\25\\MLO_prior.dcm",
+                "mask": "Normal_cases\\25\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\25\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\25\\CC_recent.dcm",
+                "mask": "Normal_cases\\25\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\25\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\25\\CC_prior.dcm",
+                "mask": "Normal_cases\\25\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\25\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "26": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\26\\MLO_prior.dcm",
+                "mask": "Normal_cases\\26\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\26\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\26\\MLO_recent.dcm",
+                "mask": "Normal_cases\\26\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\26\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\26\\CC_prior.dcm",
+                "mask": "Normal_cases\\26\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\26\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\26\\CC_recent.dcm",
+                "mask": "Normal_cases\\26\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\26\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "27": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\27\\MLO_recent.dcm",
+                "mask": "Normal_cases\\27\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\27\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\27\\MLO_prior.dcm",
+                "mask": "Normal_cases\\27\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\27\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\27\\CC_recent.dcm",
+                "mask": "Normal_cases\\27\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\27\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\27\\CC_prior.dcm",
+                "mask": "Normal_cases\\27\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\27\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "28": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\28\\MLO_recent.dcm",
+                "mask": "Normal_cases\\28\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\28\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\28\\MLO_prior.dcm",
+                "mask": "Normal_cases\\28\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\28\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\28\\CC_recent.dcm",
+                "mask": "Normal_cases\\28\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\28\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\28\\CC_prior.dcm",
+                "mask": "Normal_cases\\28\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\28\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "29": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\29\\MLO_prior.dcm",
+                "mask": "Normal_cases\\29\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\29\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\29\\MLO_recent.dcm",
+                "mask": "Normal_cases\\29\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\29\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\29\\CC_prior.dcm",
+                "mask": "Normal_cases\\29\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\29\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\29\\CC_recent.dcm",
+                "mask": "Normal_cases\\29\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\29\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "3": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\3\\MLO_prior.dcm",
+                "mask": "Normal_cases\\3\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\3\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\3\\MLO_recent.dcm",
+                "mask": "Normal_cases\\3\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\3\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\3\\CC_prior.dcm",
+                "mask": "Normal_cases\\3\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\3\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\3\\CC_recent.dcm",
+                "mask": "Normal_cases\\3\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\3\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "30": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\30\\MLO_recent.dcm",
+                "mask": "Normal_cases\\30\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\30\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\30\\MLO_prior.dcm",
+                "mask": "Normal_cases\\30\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\30\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\30\\CC_recent.dcm",
+                "mask": "Normal_cases\\30\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\30\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\30\\CC_prior.dcm",
+                "mask": "Normal_cases\\30\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\30\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "31": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\31\\MLO_prior.dcm",
+                "mask": "Normal_cases\\31\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\31\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\31\\MLO_recent.dcm",
+                "mask": "Normal_cases\\31\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\31\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\31\\CC_prior.dcm",
+                "mask": "Normal_cases\\31\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\31\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\31\\CC_recent.dcm",
+                "mask": "Normal_cases\\31\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\31\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "32": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\32\\MLO_prior.dcm",
+                "mask": "Normal_cases\\32\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\32\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\32\\MLO_recent.dcm",
+                "mask": "Normal_cases\\32\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\32\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\32\\CC_prior.dcm",
+                "mask": "Normal_cases\\32\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\32\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\32\\CC_recent.dcm",
+                "mask": "Normal_cases\\32\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\32\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "33": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\33\\MLO_recent.dcm",
+                "mask": "Normal_cases\\33\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\33\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\33\\MLO_prior.dcm",
+                "mask": "Normal_cases\\33\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\33\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\33\\CC_recent.dcm",
+                "mask": "Normal_cases\\33\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\33\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\33\\CC_prior.dcm",
+                "mask": "Normal_cases\\33\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\33\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "34": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\34\\MLO_recent.dcm",
+                "mask": "Normal_cases\\34\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\34\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\34\\MLO_prior.dcm",
+                "mask": "Normal_cases\\34\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\34\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\34\\CC_recent.dcm",
+                "mask": "Normal_cases\\34\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\34\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\34\\CC_prior.dcm",
+                "mask": "Normal_cases\\34\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\34\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "35": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\35\\MLO_prior.dcm",
+                "mask": "Normal_cases\\35\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\35\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\35\\MLO_recent.dcm",
+                "mask": "Normal_cases\\35\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\35\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\35\\CC_prior.dcm",
+                "mask": "Normal_cases\\35\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\35\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\35\\CC_recent.dcm",
+                "mask": "Normal_cases\\35\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\35\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "36": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\36\\MLO_recent.dcm",
+                "mask": "Normal_cases\\36\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\36\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\36\\MLO_prior.dcm",
+                "mask": "Normal_cases\\36\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\36\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\36\\CC_recent.dcm",
+                "mask": "Normal_cases\\36\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\36\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\36\\CC_prior.dcm",
+                "mask": "Normal_cases\\36\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\36\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "37": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\37\\MLO_prior.dcm",
+                "mask": "Normal_cases\\37\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\37\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\37\\MLO_recent.dcm",
+                "mask": "Normal_cases\\37\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\37\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\37\\CC_prior.dcm",
+                "mask": "Normal_cases\\37\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\37\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\37\\CC_recent.dcm",
+                "mask": "Normal_cases\\37\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\37\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "38": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\38\\MLO_prior.dcm",
+                "mask": "Normal_cases\\38\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\38\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\38\\MLO_recent.dcm",
+                "mask": "Normal_cases\\38\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\38\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\38\\CC_prior.dcm",
+                "mask": "Normal_cases\\38\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\38\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\38\\CC_recent.dcm",
+                "mask": "Normal_cases\\38\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\38\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "39": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\39\\MLO_recent.dcm",
+                "mask": "Normal_cases\\39\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\39\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\39\\MLO_prior.dcm",
+                "mask": "Normal_cases\\39\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\39\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\39\\CC_recent.dcm",
+                "mask": "Normal_cases\\39\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\39\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\39\\CC_prior.dcm",
+                "mask": "Normal_cases\\39\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\39\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "4": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\4\\MLO_recent.dcm",
+                "mask": "Normal_cases\\4\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\4\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\4\\MLO_prior.dcm",
+                "mask": "Normal_cases\\4\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\4\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\4\\CC_recent.dcm",
+                "mask": "Normal_cases\\4\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\4\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\4\\CC_prior.dcm",
+                "mask": "Normal_cases\\4\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\4\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "40": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\40\\MLO_prior.dcm",
+                "mask": "Normal_cases\\40\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\40\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\40\\MLO_recent.dcm",
+                "mask": "Normal_cases\\40\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\40\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\40\\CC_prior.dcm",
+                "mask": "Normal_cases\\40\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\40\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\40\\CC_recent.dcm",
+                "mask": "Normal_cases\\40\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\40\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "41": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\41\\MLO_recent.dcm",
+                "mask": "Normal_cases\\41\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\41\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\41\\MLO_prior.dcm",
+                "mask": "Normal_cases\\41\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\41\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\41\\CC_recent.dcm",
+                "mask": "Normal_cases\\41\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\41\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\41\\CC_prior.dcm",
+                "mask": "Normal_cases\\41\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\41\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "42": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\42\\MLO_prior.dcm",
+                "mask": "Normal_cases\\42\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\42\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\42\\MLO_recent.dcm",
+                "mask": "Normal_cases\\42\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\42\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\42\\CC_prior.dcm",
+                "mask": "Normal_cases\\42\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\42\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\42\\CC_recent.dcm",
+                "mask": "Normal_cases\\42\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\42\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "43": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\43\\MLO_recent.dcm",
+                "mask": "Normal_cases\\43\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\43\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\43\\MLO_prior.dcm",
+                "mask": "Normal_cases\\43\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\43\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\43\\CC_recent.dcm",
+                "mask": "Normal_cases\\43\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\43\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\43\\CC_prior.dcm",
+                "mask": "Normal_cases\\43\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\43\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "44": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\44\\MLO_prior.dcm",
+                "mask": "Normal_cases\\44\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\44\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\44\\MLO_recent.dcm",
+                "mask": "Normal_cases\\44\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\44\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\44\\CC_prior.dcm",
+                "mask": "Normal_cases\\44\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\44\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\44\\CC_recent.dcm",
+                "mask": "Normal_cases\\44\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\44\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "45": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\45\\MLO_recent.dcm",
+                "mask": "Normal_cases\\45\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\45\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\45\\MLO_prior.dcm",
+                "mask": "Normal_cases\\45\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\45\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\45\\CC_recent.dcm",
+                "mask": "Normal_cases\\45\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\45\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\45\\CC_prior.dcm",
+                "mask": "Normal_cases\\45\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\45\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "46": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\46\\MLO_prior.dcm",
+                "mask": "Normal_cases\\46\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\46\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\46\\MLO_recent.dcm",
+                "mask": "Normal_cases\\46\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\46\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\46\\CC_prior.dcm",
+                "mask": "Normal_cases\\46\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\46\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\46\\CC_recent.dcm",
+                "mask": "Normal_cases\\46\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\46\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "47": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\47\\MLO_recent.dcm",
+                "mask": "Normal_cases\\47\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\47\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\47\\MLO_prior.dcm",
+                "mask": "Normal_cases\\47\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\47\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\47\\CC_recent.dcm",
+                "mask": "Normal_cases\\47\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\47\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\47\\CC_prior.dcm",
+                "mask": "Normal_cases\\47\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\47\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "48": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\48\\MLO_prior.dcm",
+                "mask": "Normal_cases\\48\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\48\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\48\\MLO_recent.dcm",
+                "mask": "Normal_cases\\48\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\48\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\48\\CC_prior.dcm",
+                "mask": "Normal_cases\\48\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\48\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\48\\CC_recent.dcm",
+                "mask": "Normal_cases\\48\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\48\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "49": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\49\\MLO_recent.dcm",
+                "mask": "Normal_cases\\49\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\49\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\49\\MLO_prior.dcm",
+                "mask": "Normal_cases\\49\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\49\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\49\\CC_recent.dcm",
+                "mask": "Normal_cases\\49\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\49\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\49\\CC_prior.dcm",
+                "mask": "Normal_cases\\49\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\49\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "5": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\5\\MLO_prior.dcm",
+                "mask": "Normal_cases\\5\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\5\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\5\\MLO_recent.dcm",
+                "mask": "Normal_cases\\5\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\5\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\5\\CC_prior.dcm",
+                "mask": "Normal_cases\\5\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\5\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\5\\CC_recent.dcm",
+                "mask": "Normal_cases\\5\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\5\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "50": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\50\\MLO_prior.dcm",
+                "mask": "Normal_cases\\50\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\50\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\50\\MLO_recent.dcm",
+                "mask": "Normal_cases\\50\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\50\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\50\\CC_prior.dcm",
+                "mask": "Normal_cases\\50\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\50\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\50\\CC_recent.dcm",
+                "mask": "Normal_cases\\50\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\50\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "6": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\6\\MLO_prior.dcm",
+                "mask": "Normal_cases\\6\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\6\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\6\\MLO_recent.dcm",
+                "mask": "Normal_cases\\6\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\6\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\6\\CC_prior.dcm",
+                "mask": "Normal_cases\\6\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\6\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\6\\CC_recent.dcm",
+                "mask": "Normal_cases\\6\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\6\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "7": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\7\\MLO_prior.dcm",
+                "mask": "Normal_cases\\7\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\7\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\7\\MLO_recent.dcm",
+                "mask": "Normal_cases\\7\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\7\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\7\\CC_prior.dcm",
+                "mask": "Normal_cases\\7\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\7\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\7\\CC_recent.dcm",
+                "mask": "Normal_cases\\7\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\7\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "8": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\8\\MLO_prior.dcm",
+                "mask": "Normal_cases\\8\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\8\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\8\\MLO_recent.dcm",
+                "mask": "Normal_cases\\8\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\8\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\8\\CC_prior.dcm",
+                "mask": "Normal_cases\\8\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\8\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\8\\CC_recent.dcm",
+                "mask": "Normal_cases\\8\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\8\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "9": {
+        "MLO": {
+            "LEFT": {
+                "full": "Normal_cases\\9\\MLO_recent.dcm",
+                "mask": "Normal_cases\\9\\MLO_recent_GT.jpg",
+                "cropped": "Normal_cases\\9\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\9\\MLO_prior.dcm",
+                "mask": "Normal_cases\\9\\MLO_prior_GT.jpg",
+                "cropped": "Normal_cases\\9\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Normal_cases\\9\\CC_recent.dcm",
+                "mask": "Normal_cases\\9\\CC_recent_GT.jpg",
+                "cropped": "Normal_cases\\9\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Normal_cases\\9\\CC_prior.dcm",
+                "mask": "Normal_cases\\9\\CC_prior_GT.jpg",
+                "cropped": "Normal_cases\\9\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Normal_cases"
+    },
+    "51": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\1\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\1\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\1\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\1\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\1\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\1\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\1\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\1\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\1\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\1\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\1\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\1\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "60": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\10\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\10\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\10\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\10\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\10\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\10\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\10\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\10\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\10\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\10\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\10\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\10\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "61": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\11\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\11\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\11\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\11\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\11\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\11\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\11\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\11\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\11\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\11\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\11\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\11\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "62": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\12\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\12\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\12\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\12\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\12\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\12\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\12\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\12\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\12\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\12\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\12\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\12\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "63": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\13\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\13\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\13\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\13\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\13\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\13\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\13\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\13\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\13\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\13\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\13\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\13\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "64": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\14\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\14\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\14\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\14\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\14\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\14\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\14\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\14\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\14\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\14\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\14\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\14\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "65": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\15\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\15\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\15\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\15\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\15\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\15\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\15\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\15\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\15\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\15\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\15\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\15\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "66": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\16\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\16\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\16\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\16\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\16\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\16\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\16\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\16\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\16\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\16\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\16\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\16\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "67": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\17\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\17\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\17\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\17\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\17\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\17\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\17\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\17\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\17\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\17\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\17\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\17\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "68": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\18\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\18\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\18\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\18\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\18\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\18\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\18\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\18\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\18\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\18\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\18\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\18\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "69": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\19\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\19\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\19\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\19\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\19\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\19\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\19\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\19\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\19\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\19\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\19\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\19\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "52": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\2\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\2\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\2\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\2\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\2\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\2\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\2\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\2\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\2\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\2\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\2\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\2\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "70": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\20\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\20\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\20\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\20\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\20\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\20\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\20\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\20\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\20\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\20\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\20\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\20\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "71": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\21\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\21\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\21\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\21\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\21\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\21\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\21\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\21\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\21\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\21\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\21\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\21\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "72": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\22\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\22\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\22\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\22\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\22\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\22\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\22\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\22\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\22\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\22\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\22\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\22\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "73": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\23\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\23\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\23\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\23\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\23\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\23\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\23\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\23\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\23\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\23\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\23\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\23\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "74": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\24\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\24\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\24\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\24\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\24\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\24\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\24\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\24\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\24\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\24\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\24\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\24\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "75": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\25\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\25\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\25\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\25\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\25\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\25\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\25\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\25\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\25\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\25\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\25\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\25\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "76": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\26\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\26\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\26\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\26\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\26\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\26\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\26\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\26\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\26\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\26\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\26\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\26\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "77": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\27\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\27\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\27\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\27\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\27\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\27\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\27\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\27\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\27\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\27\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\27\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\27\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "78": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\28\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\28\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\28\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\28\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\28\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\28\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\28\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\28\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\28\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\28\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\28\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\28\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "79": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\29\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\29\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\29\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\29\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\29\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\29\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\29\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\29\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\29\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\29\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\29\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\29\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "53": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\3\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\3\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\3\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\3\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\3\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\3\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\3\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\3\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\3\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\3\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\3\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\3\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "80": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\30\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\30\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\30\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\30\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\30\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\30\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\30\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\30\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\30\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\30\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\30\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\30\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "81": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\31\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\31\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\31\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\31\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\31\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\31\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\31\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\31\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\31\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\31\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\31\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\31\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "82": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\32\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\32\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\32\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\32\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\32\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\32\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\32\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\32\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\32\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\32\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\32\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\32\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "83": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\33\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\33\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\33\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\33\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\33\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\33\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\33\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\33\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\33\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\33\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\33\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\33\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "84": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\34\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\34\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\34\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\34\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\34\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\34\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\34\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\34\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\34\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\34\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\34\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\34\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "85": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\35\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\35\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\35\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\35\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\35\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\35\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\35\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\35\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\35\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\35\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\35\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\35\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "86": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\36\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\36\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\36\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\36\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\36\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\36\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\36\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\36\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\36\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\36\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\36\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\36\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "87": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\37\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\37\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\37\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\37\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\37\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\37\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\37\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\37\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\37\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\37\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\37\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\37\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "88": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\38\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\38\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\38\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\38\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\38\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\38\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\38\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\38\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\38\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\38\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\38\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\38\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "89": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\39\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\39\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\39\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\39\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\39\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\39\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\39\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\39\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\39\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\39\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\39\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\39\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "54": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\4\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\4\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\4\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\4\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\4\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\4\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\4\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\4\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\4\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\4\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\4\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\4\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "90": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\40\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\40\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\40\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\40\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\40\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\40\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\40\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\40\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\40\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\40\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\40\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\40\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "91": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\41\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\41\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\41\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\41\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\41\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\41\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\41\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\41\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\41\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\41\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\41\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\41\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "92": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\42\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\42\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\42\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\42\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\42\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\42\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\42\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\42\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\42\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\42\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\42\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\42\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "93": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\43\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\43\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\43\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\43\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\43\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\43\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\43\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\43\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\43\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\43\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\43\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\43\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "94": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\44\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\44\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\44\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\44\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\44\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\44\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\44\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\44\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\44\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\44\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\44\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\44\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "95": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\45\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\45\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\45\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\45\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\45\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\45\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\45\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\45\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\45\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\45\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\45\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\45\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "96": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\46\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\46\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\46\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\46\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\46\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\46\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\46\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\46\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\46\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\46\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\46\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\46\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "97": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\47\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\47\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\47\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\47\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\47\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\47\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\47\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\47\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\47\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\47\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\47\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\47\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "98": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\48\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\48\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\48\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\48\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\48\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\48\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\48\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\48\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\48\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\48\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\48\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\48\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "99": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\49\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\49\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\49\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\49\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\49\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\49\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\49\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\49\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\49\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\49\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\49\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\49\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "55": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\5\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\5\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\5\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\5\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\5\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\5\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\5\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\5\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\5\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\5\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\5\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\5\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "100": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\50\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\50\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\50\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\50\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\50\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\50\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\50\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\50\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\50\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\50\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\50\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\50\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "56": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\6\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\6\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\6\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\6\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\6\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\6\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\6\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\6\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\6\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\6\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\6\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\6\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "57": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\7\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\7\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\7\\MLO_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\7\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\7\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\7\\MLO_prior_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\7\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\7\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\7\\CC_recent_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\7\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\7\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\7\\CC_prior_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "58": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\8\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\8\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\8\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\8\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\8\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\8\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\8\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\8\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\8\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\8\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\8\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\8\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    },
+    "59": {
+        "MLO": {
+            "LEFT": {
+                "full": "Suspicious_cases\\9\\MLO_prior.dcm",
+                "mask": "Suspicious_cases\\9\\MLO_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\9\\MLO_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\9\\MLO_recent.dcm",
+                "mask": "Suspicious_cases\\9\\MLO_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\9\\MLO_recent_GT.jpg"
+            }
+        },
+        "CC": {
+            "LEFT": {
+                "full": "Suspicious_cases\\9\\CC_prior.dcm",
+                "mask": "Suspicious_cases\\9\\CC_prior_GT.jpg",
+                "cropped": "Suspicious_cases\\9\\CC_prior_GT.jpg"
+            },
+            "RIGHT": {
+                "full": "Suspicious_cases\\9\\CC_recent.dcm",
+                "mask": "Suspicious_cases\\9\\CC_recent_GT.jpg",
+                "cropped": "Suspicious_cases\\9\\CC_recent_GT.jpg"
+            }
+        },
+        "pathology": "Suspicious_cases"
+    }
+}
