@@ -210,7 +210,8 @@ def get_regions(mask_locations):
         cv2.destroyAllWindow()"""
         contours, hierarchy = cv2.findContours(im, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
         #print(len(contours[0]))
-        nps = np.array(contours[0])
+        cntsSorted = sorted(contours, key=lambda x: cv2.contourArea(x))[-1]
+        nps = np.array(cntsSorted)
         poly_x = [int(k) for k in nps[:, 0, 0]]
         poly_y = [int(k) for k in nps[:, 0, 1]]
         return_dict[str(i)] = {"shape_attributes": {"name": "polygon", "all_points_x":poly_x, "all_points_y":poly_y}, "region_attributes": {}}
