@@ -1,0 +1,7 @@
+model_weights/
+CBIS/outputs/
+Temporal/outputs/
+CBIS/train/
+CBIS/test/
+Temporal/train/
+Temporal/test/
