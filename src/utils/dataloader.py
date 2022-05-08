@@ -43,6 +43,12 @@ class MammogramMapper(DatasetMapper):
     dataset_dict["image"] = torch.as_tensor(np.ascontiguousarray(image.astype("float32").transpose(2, 0, 1)))
     dataset_dict["auxiliary"] = torch.as_tensor(np.ascontiguousarray(auxiliary.astype("float32").transpose(2, 0, 1)))
     dataset_dict["contralateral"] = torch.as_tensor(np.ascontiguousarray(contralateral.astype("float32").transpose(2, 0, 1)))
+
+    cnt = [np.max(dataset_dict[x]) for x in ["map_examined", "map_auxiliary", "map_contralateral"]]
+    cnt = [65 if x<=65 else 82 for x in cnt]
+    flag = cnt[0]!=cnt[1] and cnt[0]==cnt[2]
+    assert flag, "issue with node count in file : "+dataset_dict["file_name"]
+
     if not self.is_train:
         # USER: Modify this if you want to keep them for some reason.
         dataset_dict.pop("annotations", None)
