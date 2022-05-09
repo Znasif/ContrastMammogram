@@ -12,6 +12,8 @@ from detectron2.data.detection_utils import read_image, check_image_size
 import detectron2.data.transforms as T
 from detectron2.config import configurable
 
+train_val = [[], []]
+
 class MammogramMapper(DatasetMapper):
   def __init__(self, cfg):
       super().__init__(cfg, True)
@@ -140,7 +142,7 @@ def get_mapping_arrays(global_mapping_array_dict, record, dim):
     record["map_contralateral"] = pixel_belongs_arr_contralateral
     return
 
-def get_mammograms_dicts(data_dir, is_train = True, dim=800):
+def get_mammograms_dicts(data_dir, is_train = True, is_val = False, dim=800):
     csvs = ["mass_case_description_train_set.csv", "calc_case_description_train_set.csv", "mass_case_description_test_set.csv", "calc_case_description_test_set.csv"]
     pds = []
     if ("CBIS" in data_dir):
@@ -160,9 +162,23 @@ def get_mammograms_dicts(data_dir, is_train = True, dim=800):
 
     with open(os.path.join(data_dir, json_file)) as f:
         imgs_anns = json.load(f)
-    
+
+    cur_selection = list(imgs_anns.keys())
+
+    if(is_train and is_val==False):
+        np.random.seed(19)
+        train_len = int(len(imgs_anns)*0.80)
+        np.random.shuffle(cur_selection)
+        train_val[0] = cur_selection[:train_len]
+        train_val[1] = cur_selection[train_len:]
+        cur_selection = train_val[0]
+        print("train", len(cur_selection))
+    if(is_train and is_val):
+        cur_selection = train_val[1]
+        print("val", len(cur_selection))
+
     dataset_dicts = []
-    for i in tqdm.tqdm(imgs_anns):
+    for i in tqdm.tqdm(cur_selection):
         npy_pth = os.path.join("/content/drive/MyDrive/temp_ims/", i+".npy")
         if os.path.exists(npy_pth):
           record = torch.load(npy_pth)
@@ -240,10 +256,12 @@ def get_mammograms_dicts(data_dir, is_train = True, dim=800):
 def registerCatalogs(parent_dir):
     lesion = parent_dir.split("/")[-1]+"_"
     DatasetCatalog.clear()
-    for d in ["train", "test"]:
-        bool_map = {"train": True, "test": False}
-        DatasetCatalog.register(lesion + d, lambda d=d: get_mammograms_dicts(parent_dir, bool_map[d]))
+    for d in ["train", "val", "test"]:
+        bool_map = {"train": True, "test": False, "val": True}
+        bool_map_1 = {"train": False, "test": False, "val": True}
+        DatasetCatalog.register(lesion + d, lambda d=d: get_mammograms_dicts(parent_dir, bool_map[d], bool_map_1[d]))
         MetadataCatalog.get(lesion + d).set(thing_classes=["mass", "calc"])
-    lesion_train = get_mammograms_dicts(parent_dir)
-    lesion_test = get_mammograms_dicts(parent_dir, False)
-    return lesion_train, lesion_test
+    lesion_train = get_mammograms_dicts(parent_dir, True, False)
+    lesion_test = get_mammograms_dicts(parent_dir, False, False)
+    lesion_val = get_mammograms_dicts(parent_dir, True, True)
+    return lesion_train, lesion_test, lesion_val

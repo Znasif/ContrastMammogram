@@ -7,13 +7,13 @@ from numpy import deg2rad
 import numpy as np
 setup_logger()
 from detectron2 import model_zoo
-from detectron2.engine import DefaultPredictor, DefaultTrainer, SimpleTrainer, create_ddp_model, TrainerBase
+from detectron2.engine import DefaultPredictor, DefaultTrainer, SimpleTrainer, create_ddp_model, TrainerBase, BestCheckpointer
 from detectron2.config import get_cfg
 from detectron2.modeling import build_model
 from detectron2.utils import comm
 from detectron2.utils.visualizer import Visualizer, ColorMode
-from detectron2.data import build_detection_train_loader
-from detectron2.evaluation import DatasetEvaluator
+from detectron2.data import build_detection_train_loader, build_detection_test_loader
+from detectron2.evaluation import COCOEvaluator, inference_on_dataset, print_csv_format, DatasetEvaluator
 from detectron2.structures import BoxMode
 from detectron2.structures import ImageList, Instances
 from detectron2.checkpoint import DetectionCheckpointer
@@ -29,11 +29,12 @@ from torch.nn.parameter import Parameter
 from src.utils.dataloader import MammogramMapper
 from src.model.linear import GraphLinear
 from detectron2.config import CfgNode as CN
+from collections import OrderedDict
 from detectron2.modeling import META_ARCH_REGISTRY
 
 __all__ = ["AGRCNN_Trainer", "MassRCNN_Trainer"]
 
-#@META_ARCH_REGISTRY.register()
+@META_ARCH_REGISTRY.register()
 class AGRCNN(GeneralizedRCNN):
     """
     AGR-CNN. Any models that contains the following three components:
@@ -55,8 +56,13 @@ class AGRCNN(GeneralizedRCNN):
             vis_period: the period to run visualization. Set to 0 to disable.
         """
         super().__init__(cfg)
-        self.class_acc = {"tp":0, "fp":0, "fn": 0, "tn": 0}
+        self.class_res = {"tp":0, "fp":0, "fn": 0, "tn": 0}
         self.seen_so_far = 0
+        self.val_class_res = {"tp":0, "fp":0, "fn": 0, "tn": 0}
+        self.val_seen_so_far = 0
+        self.train_acc = 0
+        self.val_acc = 0
+        self.validation_loss = 0
         self.reasoning = True
         self.cc = cfg.MODEL.NODE.CC
         self.mlo = cfg.MODEL.NODE.MLO
@@ -214,7 +220,8 @@ class AGRCNN(GeneralizedRCNN):
           self.train()
         J_ = []
         for i in range(self.batch_size):
-          self.epsilon += batched_inputs[i]["epsilon"].astype("float32")
+          if(self.training):
+            self.epsilon += batched_inputs[i]["epsilon"].astype("float32")
           J_.append(torch.as_tensor(batched_inputs[i]["J"].astype("float32")).to(self.device))
         phi, A, f_E = self.node_representation_from_feature(feature, [node_mapping_e.tensor, node_mapping_a.tensor, node_mapping_c.tensor])
         bipartite_data = [self.form_bipartite_graph(phi[i]) for i in range(4)]
@@ -323,17 +330,17 @@ class AGRCNN(GeneralizedRCNN):
             self.seen_so_far+=1
             if y[i][0]==labels[i][0]:
               if labels[i][0]==1:
-                self.class_acc["tn"] += 1
+                self.class_res["tn"] += 1
               else:
-                self.class_acc["tp"] += 1
+                self.class_res["tp"] += 1
             else:
               if labels[i][0]==1:
-                self.class_acc["fn"] += 1
+                self.class_res["fn"] += 1
               else:
-                self.class_acc["fp"] += 1
-        if(self.seen_so_far%20==0):
-          print(self.class_acc, self.seen_so_far)
-        
+                self.class_res["fp"] += 1
+          self.train_acc = (self.class_res["tp"]+self.class_res["tn"])/self.seen_so_far
+          print(self.train_acc, end="\r")
+
         if self.proposal_generator is not None:
             proposals, proposal_losses = self.proposal_generator(images, features, gt_instances)
         else:
@@ -375,21 +382,44 @@ class AGRCNN(GeneralizedRCNN):
         """
         assert not self.training
         images = self.preprocess_image(batched_inputs)
-        bipartite_data, inception_data, node_mapping, labels = self.feature_from_views(batched_inputs) 
-        bipartite_node, inception_node = self.graph_convolutions(bipartite_data, inception_data)
         features = self.backbone(images.tensor)
+
+        if(self.reasoning):
+          p, labels = self.correspondence_reasoning(batched_inputs)
+          pkeys = ["p2", "p3", "p4", "p5"]
+          for i in range(4):
+            features[pkeys[i]] = p[i]
+          y, classification_loss = self.classify(features["p2"], labels)
+          for i in range(self.batch_size):
+            self.val_seen_so_far+=1
+            if y[i][0]==labels[i][0]:
+              if labels[i][0]==1:
+                self.val_class_res["tn"] += 1
+              else:
+                self.val_class_res["tp"] += 1
+            else:
+              if labels[i][0]==1:
+                self.val_class_res["fn"] += 1
+              else:
+                self.val_class_res["fp"] += 1
+          self.val_acc = (self.val_class_res["tp"]+self.val_class_res["tn"])/self.val_seen_so_far
         if detected_instances is None:
             if self.proposal_generator is not None:
-                proposals, _ = self.proposal_generator(images, features, None)
+                proposals, proposal_losses = self.proposal_generator(images, features, None)
             else:
                 assert "proposals" in batched_inputs[0]
                 proposals = [x["proposals"].to(self.device) for x in batched_inputs]
 
-            results, _ = self.roi_heads(images, features, proposals, None)
+            results, detector_losses = self.roi_heads(images, features, proposals, None)
         else:
             detected_instances = [x.to(self.device) for x in detected_instances]
             results = self.roi_heads.forward_with_given_boxes(features, detected_instances)
-
+        losses = {}
+        losses.update(detector_losses)
+        losses.update(proposal_losses)
+        if(self.reasoning):
+          losses.update(classification_loss)
+        self.validation_loss = sum(losses.values())
         if do_postprocess:
             assert not torch.jit.is_scripting(), "Scripting is not supported for postprocess."
             return GeneralizedRCNN._postprocess(results, batched_inputs, images.image_sizes)
@@ -415,6 +445,10 @@ class SimplerTrainer(SimpleTrainer):
         self.optimizer.zero_grad()
         losses.backward()
         self._write_metrics(loss_dict, data_time)
+        if comm.is_main_process():
+          storage = get_event_storage()
+          storage.put_scalar("val_acc", self.model.val_acc)
+          storage.put_scalar("validation_loss", self.model.validation_loss)
         self.optimizer.step()
 
 class AGRCNN_Trainer(DefaultTrainer):
@@ -425,18 +459,22 @@ class AGRCNN_Trainer(DefaultTrainer):
     cfg.DATASETS.TEST = (test_dataset_name,)
     cfg.INPUT.MIN_SIZE_TRAIN = (800,800)
     cfg.INPUT.MAX_SIZE_TRAIN = 800
+    cfg.INPUT.MIN_SIZE_TEST = (800,800)
+    cfg.INPUT.MAX_SIZE_TEST = 800
     cfg.INPUT.RANDOM_FLIP = "none"
+    cfg.TEST.EVAL_PERIOD = 214
     cfg.DATALOADER.NUM_WORKERS = 2
     cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml")  # Let training initialize from model zoo
-    cfg.SOLVER.IMS_PER_BATCH = 2
+    cfg.SOLVER.IMS_PER_BATCH = 3
     cfg.SOLVER.BASE_LR = 0.02
-    cfg.SOLVER.MAX_ITER = 300*30
+    cfg.SOLVER.MAX_ITER = 265*10
     cfg.SOLVER.WEIGHT_DECAY = 1e-4
     cfg.SOLVER.MOMENTUM = 0.9
     cfg.SOLVER.NESTEROV = True
     cfg.SOLVER.STEPS = []
     cfg.MODEL.ROI_HEADS.BATCH_SIZE_PER_IMAGE = 128
-    cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1
+    cfg.SOLVER.CHECKPOINT_PERIOD = 20
+    cfg.MODEL.ROI_HEADS.NUM_CLASSES = 2
     cfg.OUTPUT_DIR = output_dir
     cfg.MODEL.META_ARCHITECTURE = "AGRCNN"
     _C = cfg
@@ -447,7 +485,6 @@ class AGRCNN_Trainer(DefaultTrainer):
     _C.MODEL.NODE.MLO = 82
     os.makedirs(cfg.OUTPUT_DIR, exist_ok=True)
     #self.GRCNN = GCNConv()
-    self.mapper = MammogramMapper(cfg)
     TrainerBase.__init__(self)
     self.custom_init(cfg)
     #super().__init__(cfg)
@@ -460,7 +497,7 @@ class AGRCNN_Trainer(DefaultTrainer):
     # Assume these objects must be constructed in this order.
     model = self.build_model(cfg)
     optimizer = self.build_optimizer(cfg, model)
-    data_loader = self.build_train_loader(cfg)
+    data_loader = AGRCNN_Trainer.build_train_loader(cfg)
     model = create_ddp_model(model, broadcast_buffers=False)
     self._trainer = SimplerTrainer(
         model, data_loader, optimizer
@@ -475,19 +512,84 @@ class AGRCNN_Trainer(DefaultTrainer):
     self.start_iter = 0
     self.max_iter = cfg.SOLVER.MAX_ITER
     self.cfg = cfg
-    self.register_hooks(self.build_hooks())
+    hooks_ = self.build_hooks()
+    hooks_.append(BestCheckpointer(cfg.TEST.EVAL_PERIOD, self.checkpointer, "validation_loss"))
+    self.register_hooks(hooks_)
 
-  def build_train_loader(self, cfg):
+  @classmethod
+  def build_train_loader(cls, cfg):
     """
     Returns:
         iterable
     It now calls :func:`detectron2.data.build_detection_train_loader`.
     Overwrite it if you'd like a different data loader.
     """
-    return build_detection_train_loader(cfg, mapper=self.mapper)
+    return build_detection_train_loader(cfg, mapper=MammogramMapper(cfg))
   
-  def build_evaluator(self, cfg, dataset_name):
-    return 
+  @classmethod
+  def build_test_loader(cls, cfg, dataset_name):
+    """
+    Returns:
+        iterable
+    It now calls :func:`detectron2.data.build_detection_test_loader`.
+    Overwrite it if you'd like a different data loader.
+    """
+    return build_detection_test_loader(cfg, dataset_name, mapper=MammogramMapper(cfg))
+  
+  def test(self, cfg, model, evaluators=None):
+        """
+        Evaluate the given model. The given model is expected to already contain
+        weights to evaluate.
+        Args:
+            cfg (CfgNode):
+            model (nn.Module):
+            evaluators (list[DatasetEvaluator] or None): if None, will call
+                :meth:`build_evaluator`. Otherwise, must have the same length as
+                ``cfg.DATASETS.TEST``.
+        Returns:
+            dict: a dict of result metrics
+        """
+        self.model.batch_size = 1
+        logger = logging.getLogger(__name__)
+        if isinstance(evaluators, DatasetEvaluator):
+            evaluators = [evaluators]
+        if evaluators is not None:
+            assert len(cfg.DATASETS.TEST) == len(evaluators), "{} != {}".format(
+                len(cfg.DATASETS.TEST), len(evaluators)
+            )
+
+        results = OrderedDict()
+        for idx, dataset_name in enumerate(cfg.DATASETS.TEST):
+            data_loader = self.build_test_loader(cfg, dataset_name)
+            # When evaluators are passed in as arguments,
+            # implicitly assume that evaluators can be created before data_loader.
+            if evaluators is not None:
+                evaluator = evaluators[idx]
+            else:
+                try:
+                    evaluator = COCOEvaluator(dataset_name, tasks=["segm"], allow_cached_coco=False, output_dir=cfg.OUTPUT_DIR)
+                except NotImplementedError:
+                    logger.warn(
+                        "No evaluator found. Use `DefaultTrainer.test(evaluators=)`, "
+                        "or implement its `build_evaluator` method."
+                    )
+                    results[dataset_name] = {}
+                    continue
+            results_i = inference_on_dataset(model, data_loader, evaluator)
+            results[dataset_name] = results_i
+            if comm.is_main_process():
+                assert isinstance(
+                    results_i, dict
+                ), "Evaluator must return a dict on the main process. Got {} instead.".format(
+                    results_i
+                )
+                logger.info("Evaluation results for {} in csv format:".format(dataset_name))
+                print_csv_format(results_i)
+
+        if len(results) == 1:
+            results = list(results.values())[0]
+        self.model.batch_size = cfg.SOLVER.IMS_PER_BATCH
+        return results
 
 class MassRCNN_Trainer(DefaultTrainer):
   def __init__(self, train_dataset_name, test_dataset_name, output_dir):
